@@ -2,7 +2,6 @@ package com.mercadolivro.service
 
 import com.mercadolivro.enums.BookStatus
 import com.mercadolivro.model.BookModel
-import com.mercadolivro.model.CostumerModel
 import com.mercadolivro.repository.BookRepository
 import com.mercadolivro.repository.CostumerRepository
 import org.springframework.stereotype.Service
@@ -33,19 +32,19 @@ class BookService(
         return bookRepository.findByName(name)
     }
 
-    fun findByUsername(name: String): List<BookModel> {
-        val user: CostumerModel = costumerRepository.findByName(name).orElseThrow()
-
-        return bookRepository.findByCostumerId(user.id!!)
-    }
-
     fun findByStatus(status: BookStatus): List<BookModel>? {
         return bookRepository.findByStatus(status)
     }
 
-    fun findByCostumerID(costumerID: Int): List<BookModel> {
-        return bookRepository.findByCostumerId((costumerID))
-    }
+//    fun findByUsername(name: String): List<BookModel> {
+//        val user: CostumerModel = costumerRepository.findByName(name).orElseThrow()
+//
+//        return bookRepository.findByCostumerId(user.id!!)
+//    }
+//
+//    fun findByCostumerID(costumerID: Int): List<BookModel> {
+//        return bookRepository.findByCostumerId((costumerID))
+//    }
 
 
 }
