@@ -22,10 +22,10 @@ class BookModel(
 
     @Column
     @Enumerated(EnumType.STRING)
-    var status: BookStatus = BookStatus.ATIVO
+    var status: BookStatus? = BookStatus.ATIVO
         set(value) {
             if(field == BookStatus.DELETADO || field == BookStatus.CANCELADO) {
-                throw Exception("Um livro ${field!!.name} não pode ser modificado!")
+                throw Exception("Um livro $field não pode ser modificado!")
             }
 
             field = value
