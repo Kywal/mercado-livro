@@ -1,6 +1,8 @@
 package com.mercadolivro.service
 
 import com.mercadolivro.enums.BookStatus
+import com.mercadolivro.enums.Errors
+import com.mercadolivro.exceptions.NotFoundException
 import com.mercadolivro.model.BookModel
 import com.mercadolivro.repository.BookRepository
 import com.mercadolivro.repository.CostumerRepository
@@ -28,21 +30,23 @@ class BookService(
         bookRepository.delete(book)
     }
 
-    fun findByName(name: String): List<BookModel> {
+    fun findByName(name: String): BookModel {
         return bookRepository.findByName(name)
+            ?: throw NotFoundException(Errors.ML101.message.format(name), Errors.ML101.code)
     }
 
-    fun findByStatus(status: BookStatus): List<BookModel>? {
+    fun findByStatus(status: BookStatus): BookModel {
         return bookRepository.findByStatus(status)
+            ?: throw NotFoundException(Errors.ML102.message.format(status), Errors.ML102.code)
     }
 
-//    fun findByUsername(name: String): List<BookModel> {
+//    fun findByUsername(name: String): BookModel {
 //        val user: CostumerModel = costumerRepository.findByName(name).orElseThrow()
 //
 //        return bookRepository.findByCostumerId(user.id!!)
 //    }
 //
-//    fun findByCostumerID(costumerID: Int): List<BookModel> {
+//    fun findByCostumerID(costumerID: Int): BookModel {
 //        return bookRepository.findByCostumerId((costumerID))
 //    }
 
