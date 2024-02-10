@@ -1,5 +1,7 @@
 package com.mercadolivro.service
 
+import com.mercadolivro.enums.Errors
+import com.mercadolivro.exceptions.NotFoundException
 import com.mercadolivro.model.CostumerModel
 import com.mercadolivro.repository.CostumerRepository
 import org.springframework.stereotype.Service
@@ -26,14 +28,17 @@ class CostumerService(
     }
 
     fun findByName(name: String): CostumerModel {
-        return repository.findByName(name).orElseThrow()
+        return repository.findByName(name)
+            ?: throw NotFoundException(Errors.ML201.message.format(name),Errors.ML201.code)
     }
 
     fun findById(id: Int): CostumerModel {
-        return repository.findById(id).orElseThrow()
+        return repository.findByCostumerId(id)
+            ?: throw NotFoundException(Errors.ML202.message.format(id),Errors.ML202.code)
     }
 
     fun findByEmail(email: String): CostumerModel {
-        return repository.findByEmail(email).orElseThrow()
+        return repository.findByEmail(email)
+            ?: throw NotFoundException(Errors.ML203.message.format(email),Errors.ML203.code)
     }
 }

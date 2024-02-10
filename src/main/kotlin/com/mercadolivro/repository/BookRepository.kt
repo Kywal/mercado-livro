@@ -8,10 +8,10 @@ import org.springframework.stereotype.Repository
 @Repository
 interface BookRepository : JpaRepository<BookModel, Int> {
 
-    fun findByName(name: String): List<BookModel>
-    fun findByStatus(status: BookStatus): List<BookModel>
+    fun findByName(name: String): BookModel?
+    fun findByStatus(status: BookStatus): BookModel?
 
 //    @Query("SELECT '*' FROM costumer WHERE id = :id")
-//    fun findByCostumerId(@Param("id") id: Int): List<BookModel>
+//    fun findByCostumerId(@Param("id") id: Int): BookModel
 
 }
