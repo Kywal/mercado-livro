@@ -1,23 +1,23 @@
 ---
-name: Propor funcionalidade
-about: Sugira uma nova funcionalidade
-title: "(feat) Nova funcionalidade"
+name: Propose funcionality
+about: Suggest new funcionality
+title: "New funcionality"
 labels: enhancement
 assignees: ""
 ---
 
-**Motivo**
+**Reason**
 
-Descrição curta e concisa do motivo da nova funcionalidade. Ex.: Me preocupo com a experiência do usuário na tela de cadastro...
+[//]: # (Short description of the reason behind the new funcionality. Ex: I'm worried with the user experience on the sign in screen)
 
-**Objetivo**
+**Objective**
 
-Descrição curta e concisa do objetivo da nova funcionalidade. Ex.: Solucionar problemas com demora no carregamento das bandas na tela de cadastro...
+[//]: # (Short description of the reason behind the new funcionality. Ex: Solve problems with waiting on corners loading of sign in screen)
 
-**Descreva alternativas que você considerou**
+**Describe alternatives that you have considered**
 
-Outras soluções que você considerou para desenvolver a funcionalidade. Ex.: "Primeiro, pensei em criar..."
+[//]: # (Another solutions that you have considered to develop this funcionality. Ex: "First, I thought in create...")
 
-**Conteúdo adicional**
+**Additional content**
 
-Qualquer informação adicional relacionada a funcionalidade.
+[//]: # (Any other additional information related to the funcionality.)

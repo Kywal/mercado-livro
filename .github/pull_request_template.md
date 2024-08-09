@@ -1,35 +1,36 @@
-**Por favor, informe se a PR segue os requisitos obrigatórios:**
-<!--- Exemplo checkbox marcado: - [x] -->
+**Please, inform if PR follows the mandatories requirement:**
 
-- [ ] Mesmo padrão de código do projeto
-- [ ] Arquivos alterados/adicionados seguem o padrão _Camel Case_
-- [ ] A PR está relacionada a uma ou mais issue
-- [ ] Relacionei todas as issues na seção de "Development" da PR
-- [ ] O código foi revisado uma vez ou mais
+<!--- marked checkbox example: - [x] -->
 
-**Motivação para a criação da PR**
+- [ ] Same project code pattern 
+- [ ] Updated/added files follow Camel Case pattern
+- [ ] PR is related to one or more issues
+- [ ] All issues have been related in "Development" section
+- [ ] Code has been revised one time or more
+
+**Reason to create PR**
 <!---Descreva de maneira clara e concisa a motivação para a criação da PR na linha abaixo.-->
 
 
-**O que foi feito**
+**What has been made**
 <!---
-  Se muita coisa foi feita, por favor resumir na linha abaixo.
-  Exemplo:
-    - Um açaí no capricho
-    - Uma landing page
-    - Um som que te faz dançar
+  If a lot was done, please resume in line bellow:
+  Example:
+    - One açaí on a whim
+    - One landing page
+    - One beat that makes you dance
 -->
 
 
 **Screenshots**
 <!---
-  REMOVER CASO NÃO USE.
-  Se possível, adicionar imagens que ilustram o que foi desenvolvido.
+  REMOVE IF NOT USE.
+  If possible, add images that ilustrate what has been developed.
 -->
 
 
-**O que faltou desenvolver**
+**What is missing to develop**
 <!---
-  REMOVER CASO NÃO USE.
-  Descreva alguns pontos que podem ser desenvolvidos com relação a PR.
+  REMOVE IF NOT USE.
+  Describe some points that may be still developed PR-related.
 -->

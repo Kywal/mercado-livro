@@ -1,23 +1,23 @@
 ---
-name: Propor refatoração
-about: Aperfeiçoamento de um trecho de código
-title: "(refactor) Proponho uma refatoração!"
+name: Propose refactoring
+about: Improvement of a code excerpt
+title: "I propose a refactoring!"
 labels: refactor
 assignees: ""
 ---
 
-**Como é o trecho de código atualmente?**
+**How the code excerpt is today?**
 
-Descrição clara e concisa de como funciona o trecho de código e o por quê merecer uma refatoração. Se possível anexar o trecho do código.
+[//]: # (Short and concise description of how the code excerpt works and why it deserve a refactoring. If possible, attach the code excerpt)
 
-**Como deve ser?**
+**How it should be?**
 
-Descrição clara e concisa de como deve ser o trecho de código depois da refatoração. Se possível anexar o trecho do código.
+[//]: # (Short and concise description of how the code excerpt must be after refactoring. If possible, attach the code excerpt)
 
-**O que é esperado**
+**What is expected?**
 
-Descrição clara e concisa sobre o que é esperado que aconteça. Ex.: O desempenho da página deve aumentar e isso pode ser notado no Vercel Analytics.
+[//]: # (Short and concise description of what is expected to happen with this new version. Ex: The page perfomance must increase and it should be notable in Vercel Analytics)
 
-**Conteúdo adicional**
+**Additional content**
 
-Adicionar qualquer informação adicional relacionada a refatoração.
+[//]: # (Add any other inform refactoring-related.)

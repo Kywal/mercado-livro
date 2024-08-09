@@ -1,30 +1,30 @@
 ---
-name: Relatar bug
-about: Algo não está funcionando corretamente
-title: "(bug) Novo bug encontrado"
+name: Relate bug
+about: Something isn't working correctly
+title: "New bug found"
 labels: bug
 assignees: ""
 ---
 
-**Descrição do bug**
+**Bug's description**
 
-Descrição clara e concisa sobre o bug.
+[//]: # (Clen and concise description about the bug.)
 
-**Como reproduzir**
+**How to reproduce**
 
-Passo a passo:
+[//]: # (Step by step: )
 
-1. Vá para '...'
-2. Clique em '...'
+[//]: # (1. Go to '...')
+[//]: # (2. Click in '...')
 
-**O que é esperado**
+**What is expected**
 
-Descrição clara e concisa sobre o que é esperado que aconteça.
+[//]: # (Clean and concise description about what is expected to happen.)
 
 **Screenshots**
 
-Se possível, enviar screenshots para um melhor entendimento do que acontece.
+[//]: # (If possible, send screenshots to a better understanding of what happens)
 
-**Conteúdo adicional**
+**Additional contentConteúdo adicional**
 
-Adicionar qualquer informação adicional relacionado ao bug.
+[//]: # (Any other information bug-related.)
