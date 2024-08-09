@@ -9,8 +9,8 @@
 - [ ] Code has been revised one time or more
 
 **Reason to create PR**
-<!---Descreva de maneira clara e concisa a motivação para a criação da PR na linha abaixo.-->
 
+[//]: # (Describe in a clean and concise way the reason to create PR in the line bellow:)
 
 **What has been made**
 <!---
